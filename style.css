@@ -72,3 +72,106 @@ h2{
     margin-top: 84px;
     color:#fff38f;
 }
+
+@media (max-width:700px){
+    h1{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 40px;
+    }
+    h2{
+        font-size: 25px;
+        margin-bottom:20px;
+    }
+    .div-icons{
+        width:400px;
+        margin:auto;
+    }
+    .game-icon{
+        width: 105px;
+        font-size: 50px;
+        padding: 15px 15px 15px 13px;
+        margin-right: 30px;
+        border: 3px solid black;
+        border-radius: 50%;
+        margin-bottom: 2px;
+    }
+    .scissors{
+        padding:15px 20px 15px 18px; 
+    }
+    .div-score{
+        width:350px;
+        padding:40px 40px;
+    }
+    .score{
+        font-size: 40px;
+    }
+     .player-p{
+        font-size: 20px;
+    }
+    .player{
+        width: 100px;
+        padding: 3px;
+    }
+    .user{
+        margin-left: 9%;
+        margin-top: 30px;
+    }
+    .computer{
+        margin-left: 74.5%;
+        margin-top: 30px;
+    }
+    .choiceuser{
+        margin-left: 9%;
+        margin-top: 69px;
+    }
+    .choicecomputer{
+        margin-left: 74.5%;
+        margin-top: 69px;
+    }
+}
+
+
+@media (max-width:450px){
+
+    h1{
+        margin-top: 45px;
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+    h2{
+        font-size: 17px;
+        margin-bottom:20px;
+    }
+    .div-icons{
+        width:300px;
+        margin:auto;
+    }
+    .game-icon{
+        width: 85px;
+        font-size: 40px;   
+    }
+    .div-score{
+        width:230px;
+        padding:28px 20px;
+    }
+    .player-p{
+        font-size: 15px;
+    }
+    .player{
+        width: 82px;
+        padding: 2px;
+        font-size: 15px;
+    }
+    .user{
+        margin-left: 2%;
+    }
+    .choiceuser{
+        margin-left: 2%;
+        margin-top: 62px;
+    }
+    .choicecomputer{
+        margin-top: 62px;
+    }
+    
+}

@@ -1,16 +1,16 @@
-// var number=Math.random();
-// var computerIcon=Math.floor(number*3)+1;
-// alert(computerIcon);
+// Initialise user choice and score
 var userIcon=0;
 var score1=0;
 var score2=0;
 
+// On-Click funtion over icons
 $(".game-icon").click(function(){
     var clickedIcon=this.innerHTML;
     switch(clickedIcon){
         case '👊':
             userIcon=1;
-            $("#user").html("Stone");
+            // Display user's choice
+            $("#user").html("Stone"); 
             break;
         case '🤚':
             userIcon=2;
@@ -23,12 +23,16 @@ $(".game-icon").click(function(){
         default:
             console.log("unspecified case");
     }
+
+    // Random icon choice
     var number=Math.random();
     var computerIcon=Math.floor(number*3)+1;
     computerSelect(computerIcon);
     checkResult(userIcon,computerIcon);
 })
 
+
+// Display random selection by computer
 function computerSelect(computerIcon){
     switch(computerIcon){
         case 1 :
@@ -45,7 +49,7 @@ function computerSelect(computerIcon){
     }
 }
 
-
+// Result generation 
 function checkResult(userIcon, computerIcon){
     if(userIcon==computerIcon){
         $(".displayResult").html("🚩Draw🚩");
@@ -76,6 +80,8 @@ function checkResult(userIcon, computerIcon){
         $(".displayResult").html("🚩Scissors cut paper: So you win");
         score1++;
     }
+
+    // Display new score
     $(".score1").html(score1);
     $(".score2").html(score2);
 }

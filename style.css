@@ -1,0 +1,85 @@
+body{
+    background-color: #e7fff1a1;;
+    color: black;
+    font-family: 'Bree Serif', serif;
+}
+h1{
+    font-family: 'Merienda', cursive;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    text-align: center;
+    font-size: 80px;
+    color: teal;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom:25px;
+}
+.div-icons{
+    width:500px;
+    margin:auto;
+}
+.game-icon{
+    font-size: 70px;
+    padding: 30px 30px 30px 26px;
+    border: 5px solid black;
+    border-radius: 50%;
+    margin-bottom: 4px;
+}
+.scissors{
+    padding:30px 40px 30px 35px;
+    
+}
+.div-score{
+    border: 3px solid black;
+    width:600px;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+    z-index: 0;
+    padding:48px 40px;
+
+}
+.score, .player-p{
+    display: inline;
+    font-size: 50px;
+}
+.player{
+    border: 3px solid black;
+    text-align: center;
+    width: 160px;
+    padding: 5px;
+   position: absolute;
+   z-index: 1;
+   background-color:  black;
+    color: gold;
+    
+}
+.player-p{
+    font-size: 23px;
+    
+}
+.user{
+    margin-left: 23%;
+    margin-top: 34px;
+}
+.computer{
+    margin-left: 66.3%;
+    margin-top: 34px;
+}
+.choiceuser{
+    margin-left: 23%;
+    margin-top: 84px;
+    color:#fff38f;
+}
+.choicecomputer{
+    margin-left: 66.3%;
+    margin-top: 84px;
+    color:#fff38f;
+}
+.add-info{
+    text-align: center;
+    font-size: x-large;
+}
